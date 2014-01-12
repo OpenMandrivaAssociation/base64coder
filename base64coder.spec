@@ -1,9 +1,9 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 %global long_ver  2010-12-19
 
 Name:           base64coder
 Version:        20101219
-Release:        9.0%{?dist}
+Release:        9.1%{?dist}
 Summary:        Fast and compact Base64 encoder/decoder Java library
 License:        EPL or LGPLv2+ or GPLv2+ or ASL 2.0+ or BSD
 BuildArch:      noarch
