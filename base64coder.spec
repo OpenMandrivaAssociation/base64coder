@@ -12,7 +12,7 @@ URL:            http://www.source-code.biz/%{name}/java/
 Source0:        http://repo2.maven.org/maven2/biz/source_code/%{name}/%{long_ver}/%{name}-%{long_ver}-distribution.zip
 
 BuildRequires:  maven-local
-BuildRequires:  mvn(org.sonatype.oss:oss-parent)
+BuildRequires:  mvn(org.sonatype.oss:oss-parent:pom:)
 BuildRequires:  mvn(org.apache.felix:maven-bundle-plugin)
 
 %description
