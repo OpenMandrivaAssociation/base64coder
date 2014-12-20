@@ -3,7 +3,8 @@
 
 Name:           base64coder
 Version:        20101219
-Release:        9.1%{?dist}
+Release:        9.2
+Group:		Development/Java
 Summary:        Fast and compact Base64 encoder/decoder Java library
 License:        EPL or LGPLv2+ or GPLv2+ or ASL 2.0+ or BSD
 BuildArch:      noarch
@@ -40,7 +41,7 @@ sed -i 's/\r//g' README.txt CHANGES.txt
 %if 0%{?fedora}
 %else
 # rpm5 parser...
-sed -i 's|2010-12-19|2010.12.19|g;' %{buildroot}%{_mavendepmapfragdir}/*
+sed -i 's|2010-12-19|2010.12.19|g;' %{buildroot}%{_datadir}/maven-metadata/*
 %endif
 
 %files -f .mfiles
