@@ -3,7 +3,7 @@
 
 Name:           base64coder
 Version:        20101219
-Release:        9.2
+Release:        9.3
 Group:		Development/Java
 Summary:        Fast and compact Base64 encoder/decoder Java library
 License:        EPL or LGPLv2+ or GPLv2+ or ASL 2.0+ or BSD
