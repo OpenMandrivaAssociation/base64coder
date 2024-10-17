@@ -8,7 +8,7 @@ Group:		Development/Java
 Summary:        Fast and compact Base64 encoder/decoder Java library
 License:        EPL or LGPLv2+ or GPLv2+ or ASL 2.0+ or BSD
 BuildArch:      noarch
-URL:            http://www.source-code.biz/%{name}/java/
+URL:            https://www.source-code.biz/%{name}/java/
 Source0:        http://repo2.maven.org/maven2/biz/source_code/%{name}/%{long_ver}/%{name}-%{long_ver}-distribution.zip
 
 BuildRequires:  maven-local
